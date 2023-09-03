@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="Initial commit + implementation of Strategy">
-      <change beforePath="$PROJECT_DIR$/PuP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PuP.iml" afterDir="false" />
+    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="cleanup">
+      <change afterPath="$PROJECT_DIR$/Exercise_06_Observer/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_06_Observer/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_06_Observer/IChatObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_06_Observer/LogWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_06_Observer/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_06_Observer/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,24 +33,54 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ut7KevT9MMBcw2T4CyiYbb0lin" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dstec/Project/PuP/src/Exercise_05_Strategy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dstec/Project/PuP/src/Exercise_05_Strategy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Exercise_06_Observer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dstec\Project\PuP\src\Exercise_05_Strategy" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_06_Observer.MainClass" />
+      <module name="PuP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_06_Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693746962223</updated>
-      <workItem from="1693746963321" duration="254000" />
+      <workItem from="1693746963321" duration="794000" />
+      <workItem from="1693747771924" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + implementation of Strategy">
       <created>1693747185120</created>
@@ -59,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693747185120</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cleanup">
+      <created>1693747262687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693747262687</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit + implementation of Strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit + implementation of Strategy" />
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
 </project>
