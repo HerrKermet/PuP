@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="Implemented Observer">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Self_Decorator/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Self_Decorator/Cake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Self_Decorator/ChocolateIcing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Self_Decorator/Cream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Self_Decorator/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Self_Decorator/MainClass.java" afterDir="false" />
+    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="Implemented custom decorator">
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/ActionListenerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/ActionOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/ActionSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/Benutzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/MenuOptionen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/AppendTextCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/EditorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/ItemDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/Mischa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/PotionOfIron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/PotionOfLife.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,30 +51,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dstec/Project/PuP/src/Exercise_05_Strategy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dstec/Project/PuP/src/Exercise_05_Strategy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Exercise_07_Command_Decorator.Exercise_07_Command_2" />
       <recent name="Exercise_06_Observer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dstec\Project\PuP\src\Exercise_05_Strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Self_Decorator.MainClass">
+  <component name="RunManager" selected="Application.Exercise_07_Command_Decorator.Exercise_07_Decorator.MainClass">
+    <configuration name="Benutzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_07_Command_Decorator.Exercise_07_Command_1.Benutzer" />
+      <module name="PuP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_07_Command_Decorator.Exercise_07_Command_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise_07_Command_Decorator.Exercise_07_Command_2.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_07_Command_Decorator.Exercise_07_Command_2.MainClass" />
+      <module name="PuP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_07_Command_Decorator.Exercise_07_Command_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise_07_Command_Decorator.Exercise_07_Decorator.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_07_Command_Decorator.Exercise_07_Decorator.MainClass" />
+      <module name="PuP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_07_Command_Decorator.Exercise_07_Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise_06_Observer.MainClass" />
       <module name="PuP" />
@@ -93,6 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise_07_Command_Decorator.Exercise_07_Decorator.MainClass" />
+        <item itemvalue="Application.Exercise_07_Command_Decorator.Exercise_07_Command_2.MainClass" />
+        <item itemvalue="Application.Benutzer" />
         <item itemvalue="Application.Self_Decorator.MainClass" />
         <item itemvalue="Application.MainClass" />
       </list>
@@ -108,7 +161,9 @@
       <updated>1693746962223</updated>
       <workItem from="1693746963321" duration="794000" />
       <workItem from="1693747771924" duration="1816000" />
-      <workItem from="1693767028797" duration="1119000" />
+      <workItem from="1693767028797" duration="1208000" />
+      <workItem from="1693831704842" duration="16000" />
+      <workItem from="1694096795137" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + implementation of Strategy">
       <created>1693747185120</created>
@@ -131,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693749525491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented custom decorator">
+      <created>1693768218478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693768218478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +203,7 @@
     <MESSAGE value="Initial commit + implementation of Strategy" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Implemented Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Observer" />
+    <MESSAGE value="Implemented custom decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented custom decorator" />
   </component>
 </project>
