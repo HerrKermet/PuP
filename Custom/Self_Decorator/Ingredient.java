@@ -1,4 +1,4 @@
-package Self_Decorator;
+package Custom.Self_Decorator;
 
 public interface Ingredient {
 

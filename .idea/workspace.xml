@@ -4,25 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="Implemented custom decorator">
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/ActionListenerCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/ActionOpen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/ActionSave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/Benutzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_1/MenuOptionen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/AppendTextCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/EditorCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Command_2/TextEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/ItemDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/Mischa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/PotionOfIron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_07_Command_Decorator/Exercise_07_Decorator/PotionOfLife.java" afterDir="false" />
+    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="Implemented Command 1 and 2 &#10;Implemented Decorator">
+      <change afterPath="$PROJECT_DIR$/Custom/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/AdressValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/DEAdresse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/USAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/USAddressAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/ProxyConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/WebConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/BadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/BaseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/HappyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/HungryState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/SleepState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self_Decorator/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self_Decorator/Cake.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/Cake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self_Decorator/ChocolateIcing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/ChocolateIcing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self_Decorator/Cream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/Cream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self_Decorator/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self_Decorator/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +75,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Exercise_09_State_Factory.State" />
       <recent name="Exercise_07_Command_Decorator.Exercise_07_Command_2" />
       <recent name="Exercise_06_Observer" />
     </key>
@@ -75,13 +83,26 @@
       <recent name="C:\Users\dstec\Project\PuP\src\Exercise_05_Strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise_07_Command_Decorator.Exercise_07_Decorator.MainClass">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="Benutzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise_07_Command_Decorator.Exercise_07_Command_1.Benutzer" />
       <module name="PuP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exercise_07_Command_Decorator.Exercise_07_Command_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_08_Proxy_Adapter_Facade.Adapter.Proxy.Client" />
+      <module name="PuP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_08_Proxy_Adapter_Facade.Adapter.Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,24 +137,11 @@
       </method>
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise_06_Observer.MainClass" />
+      <option name="MAIN_CLASS_NAME" value="Exercise_09_State_Factory.State.MainClass" />
       <module name="PuP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercise_06_Observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Self_Decorator.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Self_Decorator.MainClass" />
-      <module name="PuP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Self_Decorator.*" />
+          <option name="PATTERN" value="Exercise_09_State_Factory.State.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Exercise_07_Command_Decorator.Exercise_07_Decorator.MainClass" />
         <item itemvalue="Application.Exercise_07_Command_Decorator.Exercise_07_Command_2.MainClass" />
         <item itemvalue="Application.Benutzer" />
-        <item itemvalue="Application.Self_Decorator.MainClass" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +171,14 @@
       <workItem from="1693747771924" duration="1816000" />
       <workItem from="1693767028797" duration="1208000" />
       <workItem from="1693831704842" duration="16000" />
-      <workItem from="1694096795137" duration="4931000" />
+      <workItem from="1694096795137" duration="5012000" />
+      <workItem from="1694107939896" duration="961000" />
+      <workItem from="1694171933681" duration="1439000" />
+      <workItem from="1694181862157" duration="1672000" />
+      <workItem from="1694194094068" duration="8000" />
+      <workItem from="1694258699402" duration="2276000" />
+      <workItem from="1694261682302" duration="6000" />
+      <workItem from="1694269808020" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + implementation of Strategy">
       <created>1693747185120</created>
@@ -193,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693768218478</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented Command 1 and 2 &#10;Implemented Decorator">
+      <created>1694103811035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694103811035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +226,7 @@
     <MESSAGE value="cleanup" />
     <MESSAGE value="Implemented Observer" />
     <MESSAGE value="Implemented custom decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented custom decorator" />
+    <MESSAGE value="Implemented Command 1 and 2 &#10;Implemented Decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Command 1 and 2 &#10;Implemented Decorator" />
   </component>
 </project>
