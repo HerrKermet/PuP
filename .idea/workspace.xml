@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="Implemented Command 1 and 2 &#10;Implemented Decorator">
-      <change afterPath="$PROJECT_DIR$/Custom/Command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/AdressValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/DEAdresse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/USAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Adapter/USAddressAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/ProxyConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/WebConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/BadState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/BaseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/HappyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/HungryState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/PlayerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/State/SleepState.java" afterDir="false" />
+    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="Implemented Adapter, Proxy&#10;Implemented State">
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/Factory/AbstractTricotFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/Factory/FussballTrikot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/Factory/GERTrikotFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/Factory/PORTrikotFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_09_State_Factory/Factory/Trikot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Self_Decorator/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Self_Decorator/Cake.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/Cake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Self_Decorator/ChocolateIcing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/ChocolateIcing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Self_Decorator/Cream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/Cream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Self_Decorator/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Self_Decorator/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/Self_Decorator/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +159,10 @@
       <workItem from="1694194094068" duration="8000" />
       <workItem from="1694258699402" duration="2276000" />
       <workItem from="1694261682302" duration="6000" />
-      <workItem from="1694269808020" duration="997000" />
+      <workItem from="1694269808020" duration="1257000" />
+      <workItem from="1694288023575" duration="536000" />
+      <workItem from="1694330179829" duration="279000" />
+      <workItem from="1694337074303" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + implementation of Strategy">
       <created>1693747185120</created>
@@ -215,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694103811035</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented Adapter, Proxy&#10;Implemented State">
+      <created>1694271044554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694271044554</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +218,7 @@
     <MESSAGE value="Implemented Observer" />
     <MESSAGE value="Implemented custom decorator" />
     <MESSAGE value="Implemented Command 1 and 2 &#10;Implemented Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Command 1 and 2 &#10;Implemented Decorator" />
+    <MESSAGE value="Implemented Adapter, Proxy&#10;Implemented State" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Adapter, Proxy&#10;Implemented State" />
   </component>
 </project>
