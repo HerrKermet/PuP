@@ -1,4 +1,4 @@
-package Exercise_08_Proxy_Adapter_Facade.Adapter.Adapter;
+package Exercise_08_Proxy_Adapter_Facade.Adapter;
 
 public class USAddress {
     public boolean isValidUSAddress(String address, String zip, String state) {
