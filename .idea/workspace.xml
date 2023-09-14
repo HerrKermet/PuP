@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="started with Factory pattern">
-      <change afterPath="$PROJECT_DIR$/Exercise_10_Template_Composite/Composite/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_10_Template_Composite/Composite/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_10_Template_Composite/Composite/FileSystemComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_10_Template_Composite/Composite/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_10_Template_Composite/Template/DAX-2019-2020.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise_10_Template_Composite/Template/dowjones_2019_2020.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7c0386e-ced6-4641-b231-5a5728193cf9" name="Changes" comment="Implemented Composite" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +162,7 @@
       <workItem from="1694337074303" duration="38000" />
       <workItem from="1694513742187" duration="1029000" />
       <workItem from="1694710753879" duration="853000" />
-      <workItem from="1694712549245" duration="518000" />
+      <workItem from="1694712549245" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + implementation of Strategy">
       <created>1693747185120</created>
@@ -221,11 +213,29 @@
       <option name="project" value="LOCAL" />
       <updated>1694513771706</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implemented Composite">
+      <created>1694713261727</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694713261727</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit + implementation of Strategy" />
@@ -235,6 +245,7 @@
     <MESSAGE value="Implemented Command 1 and 2 &#10;Implemented Decorator" />
     <MESSAGE value="Implemented Adapter, Proxy&#10;Implemented State" />
     <MESSAGE value="started with Factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="started with Factory pattern" />
+    <MESSAGE value="Implemented Composite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Composite" />
   </component>
 </project>
