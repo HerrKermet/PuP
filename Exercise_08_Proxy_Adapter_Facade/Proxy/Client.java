@@ -1,4 +1,4 @@
-package Exercise_08_Proxy_Adapter_Facade.Adapter.Proxy;
+package Exercise_08_Proxy_Adapter_Facade.Proxy;
 
 public class Client {
 

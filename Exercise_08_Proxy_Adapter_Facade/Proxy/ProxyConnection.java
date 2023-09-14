@@ -1,4 +1,4 @@
-package Exercise_08_Proxy_Adapter_Facade.Adapter.Proxy;
+package Exercise_08_Proxy_Adapter_Facade.Proxy;
 
 import java.io.*;
 
@@ -14,7 +14,7 @@ public class ProxyConnection implements Connection{
     public void connectToHost(String hostname) {
         BufferedReader reader;
         try {
-            reader = new BufferedReader(new FileReader("Exercise_08_Proxy_Adapter_Facade/Adapter/Proxy/list.txt"));
+            reader = new BufferedReader(new FileReader("Exercise_08_Proxy_Adapter_Facade/Proxy/list.txt"));
             try {
                 String line = reader.readLine();
                 boolean found = false;
